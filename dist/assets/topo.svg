@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620" fill="none">
+  <defs>
+    <path id="w" d="M-40 6 C 200 -12 380 -12 560 2 C 740 16 900 16 1080 2 C 1260 -12 1420 -12 1480 -2" stroke="#0b0b12" stroke-opacity="0.05" stroke-width="1" fill="none" vector-effect="non-scaling-stroke"/>
+  </defs>
+  <use href="#w" y="6"/>
+  <use href="#w" y="26"/>
+  <use href="#w" y="46"/>
+  <use href="#w" y="66"/>
+  <use href="#w" y="86"/>
+  <use href="#w" y="106"/>
+  <use href="#w" y="126"/>
+  <use href="#w" y="146"/>
+  <use href="#w" y="166"/>
+  <use href="#w" y="186"/>
+  <use href="#w" y="206"/>
+  <use href="#w" y="226"/>
+  <use href="#w" y="246"/>
+  <use href="#w" y="266"/>
+  <use href="#w" y="286"/>
+  <use href="#w" y="306"/>
+  <use href="#w" y="326"/>
+  <use href="#w" y="346"/>
+  <use href="#w" y="366"/>
+  <use href="#w" y="386"/>
+  <use href="#w" y="406"/>
+  <use href="#w" y="426"/>
+  <use href="#w" y="446"/>
+  <use href="#w" y="466"/>
+  <use href="#w" y="486"/>
+  <use href="#w" y="506"/>
+  <use href="#w" y="526"/>
+  <use href="#w" y="546"/>
+  <use href="#w" y="566"/>
+  <use href="#w" y="586"/>
+  <use href="#w" y="606"/>
+</svg>
