@@ -25,7 +25,7 @@ export const PROJECT_VISUALS = [
     // Marina Decor
     accent: "#8a7a63",
     live: "#",
-    shot: "/assets/marina.jpg",
+    shot: "/assets/marina-featured.jpg",
     tagColors: TAGS,
     // light / dark / light / dark / light
     gallery: [

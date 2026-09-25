@@ -49,12 +49,8 @@ export default function Footer() {
 
       <div className="container footer__bar">
         <div className="footer__links">
-          <a href="#" onClick={(e) => e.preventDefault()}>
-            {f.terms}
-          </a>
-          <a href="#" onClick={(e) => e.preventDefault()}>
-            {f.privacy}
-          </a>
+          <a href="#/terms">{f.terms}</a>
+          <a href="#/privacy">{f.privacy}</a>
         </div>
         <p className="footer__credit">
           © 2026 · {f.credit} <strong>{lang === "ar" ? "سالم العزاوي" : "Salem Alazzawi"}</strong>
