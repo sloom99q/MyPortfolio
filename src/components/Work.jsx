@@ -67,6 +67,19 @@ export default function Work({ onOpen }) {
   const { t, dir } = useI18n();
   return (
     <section id="work" className="section work">
+      {/* Scroll-hint mouse lives here (not in the hero) so it can sit centered in
+          the gap between the hero CTA and this section without the hero's
+          `overflow: hidden` (which clips the parallax topo) cutting it off. */}
+      <motion.div
+        className="hero__scroll-hint"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.4, duration: 0.8 }}
+      >
+        <span className="hero__mouse">
+          <span className="hero__mouse-dot" />
+        </span>
+      </motion.div>
       <div className="container">
         <Reveal className="work__head">
           <Eyebrow>{t.work.eyebrow}</Eyebrow>

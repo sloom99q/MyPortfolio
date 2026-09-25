@@ -179,17 +179,6 @@ export default function Hero() {
           </span>
         </motion.a>
       </motion.div>
-
-      <motion.div
-        className="hero__scroll-hint"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.4, duration: 0.8 }}
-      >
-        <span className="hero__mouse">
-          <span className="hero__mouse-dot" />
-        </span>
-      </motion.div>
     </section>
   );
 }
