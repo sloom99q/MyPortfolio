@@ -2708,6 +2708,22 @@ body.lang-ar .term-stack {
   }
   .proj__stage {
     height: 240px;
+    padding: 24px 14px 0;
+  }
+  /* hover-only badges (invisible on touch) — tighten so they don't widen the card */
+  .proj__tags {
+    gap: 14px;
+  }
+  /* The mockup illustration is a fixed 360px-wide box; on phones that forces the
+     whole card wider than the viewport (horizontal overflow that Chrome clips via
+     `body { overflow-x: clip }` but iOS Safari leaks as a sideways-scrollable page).
+     Scale the whole stack down and reclaim its layout box with negative margins so
+     the card shrinks to fit — this also stops the frames being clipped edge-to-edge. */
+  .mockup-stack {
+    transform: scale(0.85);
+    transform-origin: top center;
+    margin-inline: -27px; /* 180 * (1 - 0.85) */
+    margin-bottom: -34px; /* 224 * (1 - 0.85) */
   }
   .proj__body {
     padding: 24px 22px 26px;
@@ -2772,6 +2788,15 @@ body.lang-ar .term-stack {
   }
   .nav__label {
     max-width: 34vw;
+  }
+}
+
+/* ---------- very small phones: scale the mockups down further ---------- */
+@media (max-width: 360px) {
+  .mockup-stack {
+    transform: scale(0.74);
+    margin-inline: -47px; /* 180 * (1 - 0.74) */
+    margin-bottom: -58px; /* 224 * (1 - 0.74) */
   }
 }
 
