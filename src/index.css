@@ -39,9 +39,11 @@
 }
 
 html {
-  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Kill overscroll chaining/rubber-band so the page doesn't fight itself at
+     the top/bottom extremes on iOS Safari. */
+  overscroll-behavior-y: none;
 }
 
 body {
@@ -49,7 +51,12 @@ body {
   background: var(--white);
   color: var(--ink);
   line-height: 1.5;
-  overflow-x: hidden;
+  /* `clip` (not `hidden`): `overflow-x: hidden` forces `overflow-y` to compute
+     to `auto`, promoting <body> into a second scroll container that fights the
+     root scroller on iOS Safari (the "creeps back up at the bottom" glitch).
+     `clip` hides horizontal overflow without creating a scroll box. */
+  overflow-x: clip;
+  overscroll-behavior-y: none;
 }
 
 a {

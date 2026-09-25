@@ -13,7 +13,7 @@ const EN_FONTS = [
   { label: "Geist Mono", css: '"Geist Mono", monospace' },
 ];
 const AR_FONTS = [
-  { label: "القاهرة", css: '"Cairo", sans-serif' },
+  { label: "خط القاهرة", css: '"Cairo", sans-serif' },
   { label: "تجوّل", css: '"Tajawal", sans-serif' },
   { label: "عارف رقعة", css: '"Aref Ruqaa", serif' },
 ];

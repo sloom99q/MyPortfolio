@@ -180,7 +180,7 @@ export const DICT = {
         "Right now I'm helping studios and contractors turn their work into websites that win clients. If that's you, ",
       talk: "let's talk",
       bio2b: ".",
-      badges: ["Sharjah, UAE", "4+ yrs shipping", "20+ websites", "solo builder"],
+      badges: ["Sharjah, UAE", "4+ yrs shipping", "17+ websites", "solo builder"],
       promptA: "want to write back? press ",
       promptB: " or ",
       clickHere: "click here",

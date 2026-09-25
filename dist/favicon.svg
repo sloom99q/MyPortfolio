@@ -1,4 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#09090b"/>
-  <text x="16" y="22" font-family="Poppins, sans-serif" font-size="18" font-weight="800" fill="#fff" text-anchor="middle">S</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="14" y1="10" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.11" stop-color="#170800"/>
+      <stop offset="0.23" stop-color="#341603"/>
+      <stop offset="0.36" stop-color="#5c2704"/>
+      <stop offset="0.49" stop-color="#8c3d06"/>
+      <stop offset="0.62" stop-color="#bd560c"/>
+      <stop offset="0.74" stop-color="#e26e12"/>
+      <stop offset="0.85" stop-color="#f9871a"/>
+      <stop offset="0.94" stop-color="#ff9c2b"/>
+      <stop offset="1" stop-color="#ffb457"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="25" fill="url(#g)"/>
+  <g transform="translate(20.423,45.239) scale(0.03734,-0.03734)">
+    <path d="M35 219H244Q247 182 266.0 165.0Q285 148 315 148Q342 148 359.5 161.5Q377 175 377 199Q377 230 348.0 247.0Q319 264 254 285Q185 308 142.5 329.5Q100 351 68.5 392.5Q37 434 37 501Q37 569 71.0 617.5Q105 666 165.0 691.0Q225 716 301 716Q424 716 497.5 658.5Q571 601 576 497H363Q362 529 343.5 545.0Q325 561 296 561Q274 561 260.0 548.0Q246 535 246 511Q246 491 261.5 476.5Q277 462 300.0 451.5Q323 441 368 425Q435 402 478.5 379.5Q522 357 553.5 316.5Q585 276 585 214Q585 151 553.5 101.0Q522 51 462.5 22.0Q403 -7 322 -7Q199 -7 120.0 51.5Q41 110 35 219Z" fill="#ffffff"/>
+  </g>
 </svg>
