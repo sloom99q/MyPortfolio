@@ -2659,9 +2659,10 @@ body.lang-ar .term-stack {
   .pdetail__gallery {
     grid-template-columns: 1fr;
   }
-  .pdetail__gallery span,
-  .pdetail__gallery span[data-wide="true"] {
-    height: 160px;
+  .pdetail__gallery img,
+  .pdetail__gallery img[data-wide="true"] {
+    height: auto;
+    aspect-ratio: 16 / 10;
   }
   .terminal__topline {
     gap: 12px;
